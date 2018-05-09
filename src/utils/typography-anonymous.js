@@ -4,7 +4,7 @@ import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants'
 const theme = {
   title: 'Anonymous',
   baseFontSize: '16px',
-  baseLineHeight: 1.75,
+  baseLineHeight: 1.4,
   scaleRatio: 5 / 2,
   googleFonts: [
     {
@@ -15,7 +15,7 @@ const theme = {
   headerFontFamily: ['Anonymous Pro', 'Georgia', 'serif'],
   bodyFontFamily: ['Anonymous Pro', 'Georgia', 'serif'],
   bodyColor: 'hsla(0,0%,0%,0.9)',
-  headerWeight: 900,
+  headerWeight: 700,
   bodyWeight: 400,
   boldWeight: 700,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
