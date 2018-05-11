@@ -6,7 +6,7 @@ import { rhythm, scale } from '../utils/typography'
 const stylesHeader = {
   marginLeft: 'auto',
   marginRight: 'auto',
-  maxWidth: rhythm(24),
+  maxWidth: rhythm(30),
   padding: `0 ${rhythm(3 / 4)} ${rhythm(1.5)}`,
 };
 

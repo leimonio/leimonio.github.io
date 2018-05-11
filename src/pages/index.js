@@ -5,6 +5,26 @@ import Helmet from 'react-helmet'
 
 import { rhythm } from '../utils/typography'
 
+const styles = {
+  row: {
+    display:'flex',
+    alignItems: 'center'
+  },
+  date: {
+    color: '#aaabd3',
+    margin: `0 ${rhythm(1/2)} 0 0`,
+  },
+  title: {
+    margin: 0,
+    lineHeight: rhythm(1.5),
+  },
+  titleLink: {
+    boxShadow: 'none',
+    color: '#56445d',
+    lineHeight: rhythm(1.5),
+  }
+};
+
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
@@ -16,19 +36,14 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+            <article style={styles.row} key={node.fields.slug}>
+              <time style={styles.date}>{node.frontmatter.date}</time>
+              <h4 style={styles.title}>
+                <Link style={styles.titleLink} to={node.fields.slug}>
                   {title}
                 </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
+              </h4>
+            </article>
           )
         })}
       </div>
