@@ -41,7 +41,7 @@ class BlogIndex extends React.Component {
           
           return (
             <article style={styles.row} key={node.fields.slug}>
-              <time style={styles.date}>{node.frontmatter.date}</time>
+              <time style={styles.date}>{node.frontmatter.date}.</time>
               <h4 style={styles.title}>
                 <Link style={styles.titleLink} to={node.fields.slug}>
                   {title}
