@@ -29,8 +29,9 @@ const styles = {
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges')
-
+    const posts = get(this, 'props.data.allMarkdownRemark.edges').filter(post => (
+      get(post, 'node.frontmatter.isArticle')
+    ))
     
     return (
       <div>
@@ -75,6 +76,7 @@ export const pageQuery = graphql`
             year: date(formatString: "YYYY")
             date(formatString: "MMMM DD")
             title
+            isArticle
           }
         }
       }
