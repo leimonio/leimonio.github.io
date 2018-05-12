@@ -22,9 +22,24 @@ const theme = {
     h1: {
       fontFamily: ['Anonymous Pro', 'sans-serif'].join(','),
       fontSize: rhythm(1.5),
+      marginTop: rhythm(1),
+      marginBottom: rhythm(0.5),
     },
     h3: {
       fontSize: rhythm(0.75),
+    },
+    h6: {
+      fontStyle: 'italic',
+    },
+    'h2,h3,h4,h5,h6': {
+      marginTop: rhythm(2),
+    },
+    a: {
+      color: '#56445d',
+      textDecoration: 'none',
+    },
+    'a:hover,a:active': {
+      boxShadow: '0 1px 0 0 currentColor',
     },
     time: {
       color: '#aaabd3',
@@ -64,19 +79,6 @@ const theme = {
         marginRight: 0,
         paddingLeft: rhythm(9 / 16),
       },
-    },
-    'h1,h2,h3,h4,h5,h6': {
-      marginTop: rhythm(2),
-    },
-    h6: {
-      fontStyle: 'italic',
-    },
-    a: {
-      color: '#56445d',
-      textDecoration: 'none',
-    },
-    'a:hover,a:active': {
-      boxShadow: '0 1px 0 0 currentColor',
     },
     'mark,ins': {
       background: '#007acc',
