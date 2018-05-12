@@ -44,7 +44,7 @@ const styles = {
   }
 }
 
-const Header = () => (
+const Header = ({ githubUrl, twitterUrl }) => (
   <nav style={styles.root}>
     <h1 style={styles.title}>
       <Link to={'/'}>leimon.io</Link>
@@ -57,12 +57,12 @@ const Header = () => (
         <Link to={'/about'}>About</Link>
       </li>
       <li style={styles.listItem}>
-        <a href="" target="_blank">
+        <a href={githubUrl} target="_blank">
           <img style={styles.socialIcon} src={GithubIcon} alt="github" />
         </a>
       </li>
       <li style={styles.listItem}>
-        <a href="" target="_blank">
+        <a href={twitterUrl} target="_blank">
           <img style={styles.socialIcon} src={TwitterIcon} alt="twitter" />
         </a>
       </li>

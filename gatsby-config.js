@@ -4,6 +4,8 @@ module.exports = {
     author: 'Konstantinos Leimonis',
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://leimon.io/',
+    githubUrl: 'https://github.com/leimonio',
+    twitterUrl: 'https://twitter.com/leimonio',
   },
   plugins: [
     {
