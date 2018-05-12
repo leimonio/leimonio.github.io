@@ -84,6 +84,20 @@ const theme = {
       padding: `${rhythm(1 / 16)} ${rhythm(1 / 8)}`,
       textDecoration: 'none',
     },
+    code: {
+      backgroundColor: '#f4f6f9',
+      padding: '2px 5px',
+      borderRadius: '2px',
+    },
+    '.gatsby-highlight > .language-text': {
+      backgroundColor: '#f4f6f9',
+      padding: '2px 5px',
+      borderRadius: '2px',
+    },
+    '.gatsby-highlight code': {
+      background: 'none',
+      padding: 0,
+    },
   }),
 }
 
