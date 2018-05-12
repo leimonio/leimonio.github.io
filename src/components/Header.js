@@ -5,50 +5,6 @@ import { rhythm } from '../utils/typography'
 import GithubIcon from '../../public/github.svg';
 import TwitterIcon from '../../public/twitter.svg';
 
-// if (location.pathname === rootPath) {
-//     header = (
-//       <h1
-//         style={{
-//           ...scale(1.5),
-//           marginBottom: rhythm(1.5),
-//           marginTop: 0,
-//         }}
-//       >
-//         <Link
-//           style={{
-//             boxShadow: 'none',
-//             textDecoration: 'none',
-//             color: 'inherit',
-//           }}
-//           to={'/'}
-//         >
-//           Gatsby Starter Blog
-//         </Link>
-//       </h1>
-//     )
-//   } else {
-//     header = (
-//       <h3
-//         style={{
-//           fontFamily: 'Montserrat, sans-serif',
-//           marginTop: 0,
-//           marginBottom: rhythm(-1),
-//         }}
-//       >
-//         <Link
-//           style={{
-//             boxShadow: 'none',
-//             textDecoration: 'none',
-//             color: 'inherit',
-//           }}
-//           to={'/'}
-//         >
-//           Gatsby Starter Blog
-//         </Link>
-//       </h3>
-//     )
-//   }
-
 const styles = {
   root: {
     display: 'flex',
