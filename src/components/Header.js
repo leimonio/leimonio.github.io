@@ -61,10 +61,7 @@ const styles = {
     fontSize: '16px',
     lineHeight: rhythm(4 / 3),
     margin: 0,
-  },
-  link: {
-    textDecoration: 'none',
-    boxShadow: 'none',
+    fontWeight: 400,
   },
   navItem: {
     fontSize: rhythm(1),
@@ -84,14 +81,14 @@ const styles = {
 const Header = () => (
   <nav style={styles.root}>
     <h1 style={styles.title}>
-      <Link style={styles.link} to={'/'}>leimon.io</Link>
+      <Link to={'/'}>leimon.io</Link>
     </h1>
     <ul style={styles.list}>
       <li style={styles.listItem}>
-        <Link style={styles.link} to={'/'}>Index</Link>
+        <Link to={'/'}>Index</Link>
       </li>
       <li style={styles.listItem}>
-        <Link style={styles.link} to={'/about'}>About</Link>
+        <Link to={'/about'}>About</Link>
       </li>
     </ul>
   </nav>

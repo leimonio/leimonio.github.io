@@ -23,8 +23,6 @@ const styles = {
     lineHeight: rhythm(1.5),
   },
   titleLink: {
-    boxShadow: 'none',
-    color: '#56445d',
     lineHeight: rhythm(1.5),
   }
 };
