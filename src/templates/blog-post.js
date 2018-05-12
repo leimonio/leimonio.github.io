@@ -5,6 +5,15 @@ import get from 'lodash/get'
 
 import { rhythm, scale } from '../utils/typography'
 
+const styles = {
+  title: {
+    marginBottom: rhythm(0.5),
+  },
+  time: {
+    margin: `0 0 ${rhythm(1.5)}`,
+  }
+};
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -14,17 +23,8 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
+        <h1 style={styles.title}>{post.frontmatter.title}</h1>
+        <h4 style={styles.time}><time>{post.frontmatter.date}</time></h4>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{

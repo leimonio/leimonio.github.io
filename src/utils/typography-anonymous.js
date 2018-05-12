@@ -21,6 +21,11 @@ const theme = {
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
     h1: {
       fontFamily: ['Anonymous Pro', 'sans-serif'].join(','),
+      fontSize: rhythm(1.5),
+    },
+    time: {
+      color: '#aaabd3',
+      fontWeight: 400,
     },
     blockquote: {
       ...scale(1 / 5),

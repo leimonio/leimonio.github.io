@@ -15,7 +15,6 @@ const styles = {
     marginBottom: 0,
   },
   date: {
-    color: '#aaabd3',
     margin: `0 ${rhythm(1/2)} 0 0`,
   },
   title: {
