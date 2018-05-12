@@ -4,7 +4,7 @@ import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants'
 const theme = {
   title: 'Anonymous',
   baseFontSize: '16px',
-  baseLineHeight: 1.4,
+  baseLineHeight: 1.5,
   scaleRatio: 5 / 2,
   googleFonts: [
     {
@@ -22,6 +22,9 @@ const theme = {
     h1: {
       fontFamily: ['Anonymous Pro', 'sans-serif'].join(','),
       fontSize: rhythm(1.5),
+    },
+    h3: {
+      fontSize: rhythm(0.75),
     },
     time: {
       color: '#aaabd3',
@@ -73,7 +76,7 @@ const theme = {
       textDecoration: 'none',
     },
     'a:hover,a:active': {
-      boxShadow: 'none',
+      boxShadow: '0 1px 0 0 currentColor',
     },
     'mark,ins': {
       background: '#007acc',
