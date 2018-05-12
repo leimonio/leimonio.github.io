@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import { rhythm } from '../utils/typography'
+import GithubIcon from '../../public/github.svg';
+import TwitterIcon from '../../public/twitter.svg';
 
 // if (location.pathname === rootPath) {
 //     header = (
@@ -70,12 +72,20 @@ const styles = {
   list: {
     listStyleType: 'none',
     margin: 0,
+    display: 'flex',
+    alignItems: 'center',
   },
   listItem: {
     display: 'inline-block',
     margin: 0,
     marginLeft: rhythm(1 / 2),
   },
+  socialIcon: {
+    height: rhythm(0.8),
+    opacity: 0.4,
+    display: 'flex',
+    alignSelf: 'center',
+  }
 }
 
 const Header = () => (
@@ -89,6 +99,16 @@ const Header = () => (
       </li>
       <li style={styles.listItem}>
         <Link to={'/about'}>About</Link>
+      </li>
+      <li style={styles.listItem}>
+        <a href="" target="_blank">
+          <img style={styles.socialIcon} src={GithubIcon} alt="github" />
+        </a>
+      </li>
+      <li style={styles.listItem}>
+        <a href="" target="_blank">
+          <img style={styles.socialIcon} src={TwitterIcon} alt="twitter" />
+        </a>
       </li>
     </ul>
   </nav>
