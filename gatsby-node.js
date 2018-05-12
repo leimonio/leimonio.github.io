@@ -8,6 +8,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve('./src/templates/blog-post.js')
+    const blogPage = path.resolve('./src/templates/blog-page.js')
     resolve(
       graphql(
         `
@@ -20,6 +21,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   }
                   frontmatter {
                     title
+                    isArticle
                   }
                 }
               }
@@ -39,9 +41,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           const previous = index === posts.length - 1 ? null : posts[index + 1].node;
           const next = index === 0 ? null : posts[index - 1].node;
 
+          const isArticle = _.get(post, 'node.frontmatter.isArticle');
+
           createPage({
             path: post.node.fields.slug,
-            component: blogPost,
+            component: isArticle ? blogPost : blogPage,
             context: {
               slug: post.node.fields.slug,
               previous,
