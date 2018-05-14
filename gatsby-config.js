@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/leimon.io",
   siteMetadata: {
     title: 'Gatsby Starter Blog',
     author: 'Konstantinos Leimonis',
