@@ -5,6 +5,9 @@ isArticle: true
 ---
 
 # React Europe 2018 - Resources - TLDR;
+One of the most important conferences regarding React and its ecosystem came to an end, leaving behind opinions that are to further be developed and discussed. More specifically the importance of specific subjects was prevalent. Static, runtime typing was one of them, along with ReasonML.
+During the conference there were many specific subjects that presentations were about. 
+Many presentations had to do with ReasonML
 
 Day 1 - https://www.youtube.com/watch?v=hCyCIHKYRqg
 
