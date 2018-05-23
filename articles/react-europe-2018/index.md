@@ -6,13 +6,13 @@ isArticle: true
 
 # React Europe 2018  ⚛️ 🇪🇺 &mdash; TLDR & Resources
 
-### Yay &mdash; What a week and what a sexy conference! 🔥
+### Yay 🙌🏻 &mdash; What a week and what a sexy conference! 🔥
 
 Last week I visited React Europe and it was thrilling! The speakers and the presentations were great, the attendants were visiting conference from around the world. I had the opportunity to discuss and share opinions on web technologies and react's ecosystem with many engineers as long as speakers who were really approachable. Being part of this community makes you feel much more motivated to continue working and even further contribute in them!
 
 During the conference, React ecosystem was presented more mature and many libraries get updated and modernized. Opinions and experimental implementations that are to further be developed and discussed, giving a timid shape of the future of React. Conference talks displayed the interest and the importance of specifc subjects.
 
-Finally, the organization of the conference was really good, shout out to [@ReactEurope](https://twitter.com/reacteurope)'s team! The schedule was followed with almost inexistent delays, speakers were relaxed and enthusiastic, sharing their work.
+Last but not least, the organization of the conference was really good, shout out to [@ReactEurope](https://twitter.com/reacteurope)'s team! The schedule was followed with almost inexistent delays, speakers were relaxed and enthusiastic, sharing their work.
 
 ### So here we are, a sum up from the conference!
 
@@ -43,7 +43,7 @@ Finally, Conference Resources:
 * [Slides](https://docs.google.com/presentation/d/1haEwH-tQGps0AL0jNvO1Dnmx_aUCxnvEqmVWkNakNjU/edit)
 * [Video](https://www.youtube.com/watch?v=M6MsDBFwa6Y)
 
-## 🔥 Declarative future of gestures and animations in React Native &mdash; Krzysztof Magiera
+## 🔥 Declarative future of gestures and animations in React Native &mdash; [Krzysztof Magiera](https://twitter.com/kzzzf)
 * [Slides](https://speakerdeck.com/kmagiera/declarative-future-of-gestures-and-animations-in-react-native)
 * [Video](https://www.youtube.com/watch?v=kdq4z2708VM)
 
