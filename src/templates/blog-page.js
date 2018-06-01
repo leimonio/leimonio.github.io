@@ -5,12 +5,6 @@ import get from 'lodash/get'
 
 import { rhythm, scale } from '../utils/typography'
 
-const styles = {
-  title: {
-    marginBottom: rhythm(0.5),
-  },
-};
-
 class BlogPageTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -20,7 +14,7 @@ class BlogPageTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1 style={styles.title}>{post.frontmatter.title}</h1>
+        <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{

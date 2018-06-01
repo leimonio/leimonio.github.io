@@ -1,22 +1,16 @@
 ---
-title: About Me
+title: Hey 👋, glad to have you here!
 date: "2018-05-12T22:12:03.284Z"
 isArticle: false
 ---
 
-This is my first post on my new fake blog! How exciting!
+My name is Konstantinos, a 27 years old software engineer 🤖, working for <a href="https://hostmaker.com/" target="_blank">Hostmaker</a> as a full-stack engineer, on the Javascript stack using NodeJS, React, Redux. 
+I recently moved in 📍Bristol (UK) no matter how much I appreciate sunny weather ☀️, like there used to be in my hometown, Athens (Greece) 🏖.
 
-I'm sure I'll write a lot more interesting things in the future.
+My background comes from a typical CS graduate degree, that started with programming in Java, moved to PHP, Javascript and Python.
+Throughout my professinal experience I have developed skills around creating, developing and consluting user-centric products.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+I love travelling and exploring new destinations, and i'm keen in sports like snowboarding.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+If you want to learn more or just say hi, <a href="mailto:hey@leimon.io?subject=%F0%9F%91%8B%20My%20name%20is%20__">drop me a line</a> or find me on Twitter as <a href="https://twitter.com/leimonio" target="_blank">@leimonio</a>.
 
-![Chinese Salty Egg](./salty_egg.jpg)
