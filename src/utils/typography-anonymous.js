@@ -23,7 +23,7 @@ const theme = {
       fontFamily: ['Anonymous Pro', 'sans-serif'].join(','),
       fontSize: rhythm(1.5),
       marginTop: rhythm(1),
-      marginBottom: rhythm(0.5),
+      marginBottom: rhythm(1),
     },
     h3: {
       fontSize: rhythm(0.75),
@@ -37,9 +37,11 @@ const theme = {
     a: {
       color: '#56445d',
       textDecoration: 'none',
+      boxShadow: '0 1px 0 0 currentColor',
     },
     'a:hover,a:active': {
-      boxShadow: '0 1px 0 0 currentColor',
+      opacity: 0.5,
+      transition: 'opacity .15s ease-in-out',
     },
     time: {
       color: '#aaabd3',
