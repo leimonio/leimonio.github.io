@@ -5,17 +5,19 @@ os:
   - osx
 
 node_js:
-  - "node"
-  - "lts/*"
-  - "7"
   - "8"
 
-script:
-  - npm install
-  - npm run lint
+cache: yarn
 
-deploy:
-  provider: script
-  script: npm run build
-  on:
-    branch: master
+before_script:
+  - "yarn global add gatsby"
+
+script:
+  - "yarn test"
+
+after_success:
+  - "yarn deploy"
+
+branches:
+  only:
+    - master
