@@ -9,7 +9,7 @@ const stylesHeader = {
   marginRight: 'auto',
   maxWidth: rhythm(30),
   padding: `0 ${rhythm(3 / 4)} ${rhythm(1.5)}`,
-};
+}
 
 class Template extends React.Component {
   render() {

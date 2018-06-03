@@ -11,8 +11,8 @@ const styles = {
   },
   time: {
     margin: `0 0 ${rhythm(1.5)}`,
-  }
-};
+  },
+}
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -24,7 +24,9 @@ class BlogPostTemplate extends React.Component {
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
         <h1 style={styles.title}>{post.frontmatter.title}</h1>
-        <h4 style={styles.time}><time>{post.frontmatter.date}</time></h4>
+        <h4 style={styles.time}>
+          <time>{post.frontmatter.date}</time>
+        </h4>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
