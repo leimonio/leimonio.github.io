@@ -30,29 +30,37 @@ const styles = {
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges').filter(post =>
-      get(post, 'node.frontmatter.isArticle')
-    )
+    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+      .filter(post => get(post, 'node.frontmatter.isArticle'))
+      .reduce((posts, curPost) => {
+        curPost.isFirstOfYear = posts.filter(post => (
+          post.node.frontmatter.year === curPost.node.frontmatter.year
+        )).length === 0;
+        return [...posts, curPost];
+      }, []);
 
     return (
       <div>
         <Helmet title={siteTitle} />
-        <h3 style={styles.sectionYear}>
-          {posts[0].node.frontmatter.year}
-          <span> ¬</span>
-        </h3>
-        {posts.map(({ node }) => {
+        {posts.map(({ node, isFirstOfYear }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
-
           return (
-            <article style={styles.row} key={node.fields.slug}>
-              <time style={styles.date}>{node.frontmatter.date}.</time>
-              <h4 style={styles.title}>
-                <Link style={styles.titleLink} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h4>
-            </article>
+            <div>
+              {isFirstOfYear && (
+                <h3 style={styles.sectionYear}>
+                  {node.frontmatter.year}
+                  <span> ¬</span>
+                </h3>
+              )}
+              <article style={styles.row} key={node.fields.slug}>
+                <time style={styles.date}>{node.frontmatter.date}.</time>
+                <h4 style={styles.title}>
+                  <Link style={styles.titleLink} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h4>
+              </article>
+            </div>
           )
         })}
       </div>
