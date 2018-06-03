@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{165:function(t,i){t.exports={data:{site:{siteMetadata:{twitterUrl:"https://twitter.com/leimonio",githubUrl:"https://github.com/leimonio"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----7fa84c24eea2947c4d94.js.map
