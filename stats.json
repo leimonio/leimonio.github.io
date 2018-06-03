@@ -1,12 +1,8 @@
 {
   "assetsByChunkName": {
-    "path---my-second-post": [
-      "path---my-second-post-86647bc45ff8704cc63b.js",
-      "path---my-second-post-86647bc45ff8704cc63b.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-3db92287eee76bf8320a.js",
-      "component---src-pages-index-js-3db92287eee76bf8320a.js.map"
+      "component---src-pages-index-js-2cfc22b4857bad136ace.js",
+      "component---src-pages-index-js-2cfc22b4857bad136ace.js.map"
     ],
     "path---": [
       "path----7fa84c24eea2947c4d94.js",
@@ -24,17 +20,9 @@
       "component---src-layouts-index-js-1029122a7b9576b007c1.js",
       "component---src-layouts-index-js-1029122a7b9576b007c1.js.map"
     ],
-    "path---hi-folks": [
-      "path---hi-folks-c8efc78687fc0485d4ed.js",
-      "path---hi-folks-c8efc78687fc0485d4ed.js.map"
-    ],
     "path---index": [
-      "path---index-5a56dd79e9765267c190.js",
-      "path---index-5a56dd79e9765267c190.js.map"
-    ],
-    "path---hello-world": [
-      "path---hello-world-4c5a859d98a7e56d4998.js",
-      "path---hello-world-4c5a859d98a7e56d4998.js.map"
+      "path---index-df1efab25e7dbdcb7225.js",
+      "path---index-df1efab25e7dbdcb7225.js.map"
     ],
     "path---react-europe-2018": [
       "path---react-europe-2018-5bc2a8e92ff49fcac851.js",
@@ -56,21 +44,33 @@
       "component---src-templates-blog-page-js-f6eaab3e9351a9ecdb68.js",
       "component---src-templates-blog-page-js-f6eaab3e9351a9ecdb68.js.map"
     ],
+    "path---responsive-debugging": [
+      "path---responsive-debugging-617e11231ce90d6693da.js",
+      "path---responsive-debugging-617e11231ce90d6693da.js.map"
+    ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-24cd178c9e91b9ef90d1.js",
-      "app-24cd178c9e91b9ef90d1.js.map"
+      "app-e86fa64cd6dc25f6d5e7.js",
+      "app-e86fa64cd6dc25f6d5e7.js.map"
+    ],
+    "path---first-oss-contrinbution": [
+      "path---first-oss-contrinbution-1ecd9c8c62bf9ecff59c.js",
+      "path---first-oss-contrinbution-1ecd9c8c62bf9ecff59c.js.map"
+    ],
+    "path---why-flat-design": [
+      "path---why-flat-design-ef8563d778d2a62b3a04.js",
+      "path---why-flat-design-ef8563d778d2a62b3a04.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---about": [
-      "path---about-ee7d1e189b89ec668057.js",
-      "path---about-ee7d1e189b89ec668057.js.map"
+      "path---about-6a96694601d5dd6c6d6b.js",
+      "path---about-6a96694601d5dd6c6d6b.js.map"
     ]
   }
 }

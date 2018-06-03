@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://leimon.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 03 Jun 2018 10:36:27 GMT</lastBuildDate><item><title><![CDATA[React Europe 2018  ⚛️ 🇪🇺 - TLDR;]]></title><description><![CDATA[Yay 🙌🏻  —  What a week and what a sexy conference! 🔥 Last week I visited React Europe and it was thrilling! The speakers and the…]]></description><link>https://leimon.io//react-europe-2018/</link><guid isPermaLink="false">https://leimon.io//react-europe-2018/</guid><pubDate>Sat, 19 May 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/leimon.io/ReactEurope2018-1.jpg&quot; alt=&quot;React Europe 2018&quot; title=&quot;React Europe 2018 — Speakers&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://leimon.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 03 Jun 2018 12:00:47 GMT</lastBuildDate><item><title><![CDATA[React Europe 2018  ⚛️ 🇪🇺 - TLDR;]]></title><description><![CDATA[Yay 🙌🏻  —  What a week and what a sexy conference! 🔥 Last week I visited React Europe and it was thrilling! The speakers and the…]]></description><link>https://leimon.io//react-europe-2018/</link><guid isPermaLink="false">https://leimon.io//react-europe-2018/</guid><pubDate>Sat, 19 May 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://s3.eu-west-2.amazonaws.com/leimon.io/ReactEurope2018-1.jpg&quot; alt=&quot;React Europe 2018&quot; title=&quot;React Europe 2018 — Speakers&quot;&gt;&lt;/p&gt;
 &lt;h3&gt;Yay 🙌🏻 — What a week and what a sexy conference! 🔥&lt;/h3&gt;
 &lt;p&gt;Last week I visited React Europe and it was thrilling! The speakers and the presentations were great, the attendants were visiting the conference from around the world. I had the opportunity to discuss and share opinions on web technologies and react’s ecosystem with many engineers as well as speakers who were really approachable. Being part of this community makes you feel much more motivated to continue working and contribute in them even further!&lt;/p&gt;
 &lt;p&gt;During the conference, React ecosystem was presented as more mature and many libraries have gotten updated and modernized. Opinions and experimental implementations that are further to be developed and discussed, giving a timid shape of the future of React. Conference talks displayed the interest and the importance of specifc subjects.&lt;/p&gt;
@@ -129,153 +129,98 @@ I recently moved in 📍Bristol (UK) no matter how much I appreciate sunny weath
 &lt;p&gt;My background comes from a typical CS graduate degree, that started with programming in Java, moved to PHP, Javascript and Python.
 Throughout my professinal experience I have developed skills around creating, developing and consluting user-centric products.&lt;/p&gt;
 &lt;p&gt;I love travelling and exploring new destinations, and i’m keen in sports like snowboarding.&lt;/p&gt;
-&lt;p&gt;If you want to learn more or just say hi, &lt;a href=&quot;mailto:hey@leimon.io?subject=%F0%9F%91%8B%20My%20name%20is%20__&quot;&gt;drop me a line&lt;/a&gt; or find me on Twitter as &lt;a href=&quot;https://twitter.com/leimonio&quot; target=&quot;_blank&quot;&gt;@leimonio&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://leimon.io//hi-folks/</link><guid isPermaLink="false">https://leimon.io//hi-folks/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
-&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This however showed weasel&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Well uncritical so misled&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;this is very interesting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
-view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
-&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
-Lane. Pityful a rethoric question ran over her cheek, then she continued her
-way. On her way she met a copy.&lt;/p&gt;
-&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
-&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
+&lt;p&gt;If you want to learn more or just say hi, &lt;a href=&quot;mailto:hey@leimon.io?subject=%F0%9F%91%8B%20My%20name%20is%20__&quot;&gt;drop me a line&lt;/a&gt; or find me on Twitter as &lt;a href=&quot;https://twitter.com/leimonio&quot; target=&quot;_blank&quot;&gt;@leimonio&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My first ever open source contribution]]></title><description><![CDATA[You are a developer (if not you may just had a faulty url landing). You have integrated in your daily workflow at least one library as a…]]></description><link>https://leimon.io//first-oss-contrinbution/</link><guid isPermaLink="false">https://leimon.io//first-oss-contrinbution/</guid><pubDate>Sun, 18 Oct 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;You are a developer (if not you may just had a faulty url landing). You have integrated in your daily workflow at least one library as a third party dependency. Ever wondered how these libraries are build? Wouldn’t it be amazing if you could give back some of your expertise in order to help these libraries and tools get even better and grow faster, collaborating with extremely motivated developers, and further more develop your own skills?&lt;/p&gt;
+&lt;p&gt;If so, your speculation is right! This is what contribution to the open source software is about. With a little digging, you’ve found the project you’d like to contribute. Now what?&lt;/p&gt;
+&lt;h3&gt;“Let’s start”&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;So baboon this&lt;/li&gt;
-&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
-&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
-&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
-impassive fruitlessly shut&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;At first there is the doubt.&lt;/strong&gt; Am I good enough to write some code for a library possibly been used by other developers?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;**Then the fear. **And what if I break something?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Procrastination&lt;/strong&gt; keeps going on and you’re still scared of getting exposed to the community.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Commit nothing.&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rethoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.&lt;/p&gt;
+&lt;p&gt;I know first hand, it’s difficult to &lt;em&gt;break&lt;/em&gt; out of this &lt;em&gt;while(true)&lt;/em&gt; loop.&lt;/p&gt;
+&lt;p&gt;As a first timer I had no idea what open source project were about.&lt;/p&gt;
+&lt;p&gt;But…&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and
-return to its own, safe country.&lt;/p&gt;
+&lt;p&gt;What you are afraid to do is a clear indicator of the next thing you need to do. &lt;em&gt;— Anthony Robbins&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.&lt;/p&gt;
-&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
-&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.&lt;/p&gt;
-&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
-&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
-&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rethoric question ran over her cheek, then she continued her way. On her way she
-met a copy.&lt;/p&gt;
-&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://leimon.io//my-second-post/</link><guid isPermaLink="false">https://leimon.io//my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;
-&lt;p&gt;Lalala - test travis again&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://leimon.io//hello-world/</link><guid isPermaLink="false">https://leimon.io//hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;What I’ve learned first hand&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You can either start from tools you use everyday or resolve repository known issues or even add some features declared by the product roadmap. Another approach is to try out some other sources just like &lt;a href=&quot;&quot;&gt;Kent C. Dodds&lt;/a&gt; has suggested in his article &lt;a href=&quot;https://medium.com/@kentcdodds/first-timers-only-78281ea47455&quot;&gt;First Timers Only&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Before even writing the first lines of code checkout the CONTRIBUTION.md guideline. After all, you need to contribute some code properly according to the repo needs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You need to be quite comfortable with Git CLI. A great tool in your asset will be some git workaround as suggested in &lt;a href=&quot;https://vimeo.com/43659036&quot;&gt;“Git more done”&lt;/a&gt; (great reference, thanks to &lt;a href=&quot;https://medium.com/@alexkval&quot;&gt;Alexander Shemetovsky&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@mtscout6&quot;&gt;Matthew Smith&lt;/a&gt;). Don’t panic in case you mess your working branch, some practice is needed to get used to the whole process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Always update and improve the documentation as well as the tests of the project.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Be ready to communicate and argue for your proposed implementation and also be open-minded to have code reviews.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Be patient through iterations and review cycles and keep in mind that most contributors, maintainers and reviewers have a hand in for repository in their spare time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Throughout this whole process your skills will dramatically be enhanced. Your collaborators will be people with solid and honest disposal to help you and guide you. You will have your code reviewed by other people not only experts but also coders just like you.&lt;/p&gt;
+&lt;p&gt;Your code will possibly be rewritten even from the next commit and this not something you have to fear of, but what makes this whole cycle magic. After all of these iterations you give back something to the community, from which you have benefitted greatly.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;p&gt;The feeling of contributing just a small piece of code in a project that’s gonna be used by other developers is unique.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-3f5a1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Chinese Salty Egg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f8fb9.jpg&quot;
-        srcset=&quot;/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-e8976.jpg 148w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-63df2.jpg 295w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-f8fb9.jpg 590w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-85e3d.jpg 885w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-d1924.jpg 1180w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-9452e.jpg 1770w,
-/static/salty_egg-8058f3f26913fea3b6a89a73344fe94a-3f5a1.jpg 2048w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Roughly this is what I’ve learned and achieved with &lt;a href=&quot;https://github.com/react-bootstrap/react-bootstrap&quot;&gt;react-bootstrap&lt;/a&gt;. Let the repository raised-issues-tab be the initial trigger and never hesitate to open a pull request.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Special thanks to &lt;a href=&quot;https://github.com/AlexKVal&quot;&gt;Alexander Shemetovsky&lt;/a&gt; and &lt;a href=&quot;https://github.com/taion&quot;&gt;Jimmy Jia&lt;/a&gt; for all the support and the guidance.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why Flat Design? Why now?]]></title><description><![CDATA[Let’s take it from the beginning. At first it was the command line interface, not that much usable because of its non-existent…]]></description><link>https://leimon.io//why-flat-design/</link><guid isPermaLink="false">https://leimon.io//why-flat-design/</guid><pubDate>Thu, 31 Oct 2013 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1600/1*0D4bGDOXP0ThTgqNXj_rEw.png&quot; alt=&quot;Flat Design&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Let’s take it from the beginning. At first it was the command line interface, not that much usable because of its non-existent discoverability, limiting the users only to advanced ones. When Douglas Engelbart envisioned and shaped the first graphical interface, it was a real breakthrough, giving the opportunity to any user to essentially interact and discover the computer functionalities in a more affordable way.&lt;/p&gt;
+&lt;p&gt;Since then, the graphical interface evolved into a way to resemble the real world — such as the use of folder and file images for computer filing systems or a letter symbol for email (trash cans, folders, mail etc.) — to make computers feel more familiar to users.This evolution came to its peek with skeuomorphism, when smartphones first appeared in our lifes. Skeuomorphism let people act as if they were using objects from the real world and in that way enhance their experience with something familiar to them.&lt;/p&gt;
+&lt;p&gt;Despite how familiar to the user this design was, it was also constrained by being bound to physical objects even though computers are not subject to those constraints.&lt;/p&gt;
+&lt;p&gt;Users have become experienced enough to let this kind of design go. Computers and their functionality have now got under the skin of their users. People don’t need anymore this real world resemblance (to their device interaction), which actually distracts them from the main reason of their device interaction. People need to focus on the content of their interaction. Thus a simplistic content-based design offering enough space, getting rid off all this clutter that skeuomorphism presented is in need.
+This is where flat design comes in. Inspired by minimalism and content enhancement, flat design simple and elegant offers a new kind of user experience — more content with less distraction -more space with less elements to engage users attention.&lt;/p&gt;
+&lt;p&gt;An often heard expression “mobile first” has now become “mobile only”. The integration of smartphones in our lives and their extended everyday use, replacing the use of computer in many situations , was the prevalent reason that lead us to concentrate on content.&lt;/p&gt;
+&lt;p&gt;Moving to smaller screens on mobile devices, we don’t need all this information overload. We just need to focus on the main reason we use these devices. The content is the king that engages us users at last.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Responsive Debugging]]></title><description><![CDATA[Web development on mobile never was that easy Google Chrome offers  Developer Tools , having that way access into the internal of the…]]></description><link>https://leimon.io//responsive-debugging/</link><guid isPermaLink="false">https://leimon.io//responsive-debugging/</guid><pubDate>Sat, 07 Sep 2013 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/fit/t/2000/840/0*iG83GUxfEJghfWxQ.jpeg&quot; alt=&quot;Responsive Debugging&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Web development on mobile never was that easy&lt;/h3&gt;
+&lt;p&gt;Google Chrome offers &lt;strong&gt;Developer Tools&lt;/strong&gt;, having that way access into the internal of the browser.&lt;/p&gt;
+&lt;p&gt;Ever wanted having such tools that will help your &lt;strong&gt;development process on mobile&lt;/strong&gt;? Chrome does it in a very efficient way.&lt;/p&gt;
+&lt;p&gt;Through its tool it allows you to inspect, debug, and analyze the on-device experience with the full suite of tools you’re used to, meaning you can use the Chrome DevTools on your development machine to debug a page on your mobile device.&lt;/p&gt;
+&lt;p&gt;How to debug your web content and applications on mobile?&lt;/p&gt;
+&lt;p&gt;What you will need are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;An Android device with Chrome.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A USB cable to plug the device to your development machine.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;Android SDK&lt;/a&gt; or &lt;a href=&quot;https://chrome.google.com/webstore/detail/adb/dpngiggdglpdnjdoaefidgiigpemgage&quot;&gt;ADB Chrome plugin&lt;/a&gt; installed on your development machine.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For the installation process follow the next steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure you have installed the Android SDK or the ADB chrome plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enable usb debugging on your device. Settings &gt; Developer Options &gt; USB debugging.
+(In the latter version of Android developers options are hidden by default. To enable them go to Settings &gt; About Phone and tap Build number 7 times.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Connect your device via USB to the development machine.
+On your mobile device, launch Chrome and enable the USB debugging settings, going to Settings &gt; Advanced &gt; DevTools &gt; Enable USB Web debugging.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now you can start debugging with your ADB Chrome extension. Start ADB and then View Inspect Targets list will contain your device’s open addresses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/0*rZtsQ26Zx0piuuid.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You can now inspect and follow the development process as on your development machine. Inspect the address you want to debug and you are ready. A new window with the Chrome DevTools will appear, while your mobile browser’s document elements will be highlighted.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2000/0*Rr9a_YzEM3DFJ2br.png&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
