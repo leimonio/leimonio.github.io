@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import { rhythm } from '../utils/typography'
-import GithubIcon from '../../public/github.svg';
-import TwitterIcon from '../../public/twitter.svg';
+import GithubIcon from '../../assets/icons/github.svg'
+import TwitterIcon from '../../assets/icons/twitter.svg'
 
 const styles = {
   root: {
@@ -44,20 +44,26 @@ const styles = {
   },
   headerLink: {
     boxShadow: 'none',
-  }
+  },
 }
 
 const Header = ({ githubUrl, twitterUrl }) => (
   <nav style={styles.root}>
     <h1 style={styles.title}>
-      <Link to={'/'} style={styles.headerLink}>leimon.io</Link>
+      <Link to={'/'} style={styles.headerLink}>
+        leimon.io
+      </Link>
     </h1>
     <ul style={styles.list}>
       <li style={styles.listItem}>
-        <Link to={'/'} style={styles.headerLink}>Index</Link>
+        <Link to={'/'} style={styles.headerLink}>
+          Index
+        </Link>
       </li>
       <li style={styles.listItem}>
-        <Link to={'/about'} style={styles.headerLink}>About</Link>
+        <Link to={'/about'} style={styles.headerLink}>
+          About
+        </Link>
       </li>
       <li style={styles.listItem}>
         <a href={githubUrl} target="_blank">
@@ -73,4 +79,4 @@ const Header = ({ githubUrl, twitterUrl }) => (
   </nav>
 )
 
-export default Header;
+export default Header

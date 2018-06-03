@@ -7,15 +7,15 @@ import { rhythm } from '../utils/typography'
 
 const styles = {
   row: {
-    display:'flex',
-    alignItems: 'center'
+    display: 'flex',
+    alignItems: 'center',
   },
   sectionYear: {
     marginTop: rhythm(1.5),
     marginBottom: 0,
   },
   date: {
-    margin: `0 ${rhythm(1/2)} 0 0`,
+    margin: `0 ${rhythm(1 / 2)} 0 0`,
   },
   title: {
     margin: 0,
@@ -24,23 +24,26 @@ const styles = {
   titleLink: {
     lineHeight: rhythm(1.5),
     boxShadow: 'none',
-  }
-};
+  },
+}
 
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const posts = get(this, 'props.data.allMarkdownRemark.edges').filter(post => (
+    const posts = get(this, 'props.data.allMarkdownRemark.edges').filter(post =>
       get(post, 'node.frontmatter.isArticle')
-    ))
-    
+    )
+
     return (
       <div>
         <Helmet title={siteTitle} />
-        <h3 style={styles.sectionYear}>{posts[0].node.frontmatter.year}<span> ¬</span></h3>
+        <h3 style={styles.sectionYear}>
+          {posts[0].node.frontmatter.year}
+          <span> ¬</span>
+        </h3>
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
-          
+
           return (
             <article style={styles.row} key={node.fields.slug}>
               <time style={styles.date}>{node.frontmatter.date}.</time>
