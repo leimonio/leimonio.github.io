@@ -1,5 +1,5 @@
 import Typography from 'typography'
-import Anonymous from './dist/src/utils/typography-anonymous'
+import Anonymous from 'typography-theme-anonymous';
 
 Anonymous.overrideThemeStyles = () => ({
   'a.gatsby-resp-image-link': {
