@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
+    title: 'leimon.io',
     author: 'Konstantinos Leimonis',
-    description: 'A starter blog demonstrating what Gatsby can do.',
+    description: '👋 Hi my name in Konstantinos Leimonis.',
     siteUrl: 'https://leimon.io/',
     githubUrl: 'https://github.com/leimonio',
     twitterUrl: 'https://twitter.com/leimonio',

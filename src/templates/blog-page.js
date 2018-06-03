@@ -13,7 +13,7 @@ class BlogPageTemplate extends React.Component {
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet title={`${post.frontmatter.seoTitle || post.frontmatter.title} | ${siteTitle}`} />
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -41,6 +41,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        seoTitle
         date(formatString: "MMMM DD, YYYY")
       }
     }

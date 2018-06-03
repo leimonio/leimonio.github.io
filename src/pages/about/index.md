@@ -1,5 +1,6 @@
 ---
 title: Hey 👋, glad to have you here!
+seoTitle: About Me
 date: "2018-05-12T22:12:03.284Z"
 isArticle: false
 ---

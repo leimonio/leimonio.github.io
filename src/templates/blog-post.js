@@ -22,7 +22,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet title={`${post.frontmatter.seoTitle || post.frontmatter.title} | ${siteTitle}`} />
         <h1 style={styles.title}>{post.frontmatter.title}</h1>
         <h4 style={styles.time}>
           <time>{post.frontmatter.date}</time>
@@ -79,6 +79,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        seoTitle
         date(formatString: "MMMM DD, YYYY")
       }
     }

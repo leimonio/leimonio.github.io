@@ -41,7 +41,7 @@ class BlogIndex extends React.Component {
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+        <Helmet title={`Home | ${siteTitle}`} />
         {posts.map(({ node, isFirstOfYear }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
