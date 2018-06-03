@@ -20,6 +20,7 @@ node_js:
 
 script:
   - npm test
+  - npm run build:font
   - npm run build -- --prefix-paths
 
 deploy:
