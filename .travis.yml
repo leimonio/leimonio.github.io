@@ -7,7 +7,6 @@ script:
   - npm test
 
 before_deploy:
-  - npm run build:font
   - npm run build -- --prefix-paths
 
 deploy:
