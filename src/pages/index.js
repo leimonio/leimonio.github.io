@@ -2,30 +2,33 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import styled from 'styled-components';
 
 import { rhythm } from '../utils/typography'
 
-const styles = {
-  row: {
-    display: 'flex',
-    alignItems: 'center',
-  },
-  sectionYear: {
-    marginTop: rhythm(1.5),
-    marginBottom: 0,
-  },
-  date: {
-    margin: `0 ${rhythm(1 / 2)} 0 0`,
-  },
-  title: {
-    margin: 0,
-    lineHeight: rhythm(1.5),
-  },
-  titleLink: {
-    lineHeight: rhythm(1.5),
-    boxShadow: 'none',
-  },
-}
+const Row = styled.article`
+  display: flex;
+  align-items: center;
+`;
+
+const Date = styled.time`
+  margin: 0 ${rhythm(1 / 2)} 0 0;
+`;
+
+const Year = styled.h3`
+  margin-top: ${rhythm(1.5)};
+  margin-bottom: 0;
+`;
+
+const Title = styled.h4`
+  margin: 0;
+  line-height: ${rhythm(1.5)};
+`;
+
+const TitleLink = styled(Link)`
+  line-height: ${rhythm(1.5)};
+  box-shadow: 'none';
+`;
 
 class BlogIndex extends React.Component {
   render() {
@@ -47,19 +50,19 @@ class BlogIndex extends React.Component {
           return (
             <div>
               {isFirstOfYear && (
-                <h3 style={styles.sectionYear}>
+                <Year>
                   {node.frontmatter.year}
                   <span> ¬</span>
-                </h3>
+                </Year>
               )}
-              <article style={styles.row} key={node.fields.slug}>
-                <time style={styles.date}>{node.frontmatter.date}.</time>
-                <h4 style={styles.title}>
-                  <Link style={styles.titleLink} to={node.fields.slug}>
+              <Row key={node.fields.slug}>
+                <Date>{node.frontmatter.date}.</Date>
+                <Title>
+                  <TitleLink to={node.fields.slug}>
                     {title}
-                  </Link>
-                </h4>
-              </article>
+                  </TitleLink>
+                </Title>
+              </Row>
             </div>
           )
         })}

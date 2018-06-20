@@ -2,17 +2,29 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
+import styled from 'styled-components';
 
 import { rhythm, scale } from '../utils/typography'
 
-const styles = {
-  title: {
-    marginBottom: rhythm(0.5),
-  },
-  time: {
-    margin: `0 0 ${rhythm(1.5)}`,
-  },
-}
+const PostTitle = styled.h1`
+  margin-bottom: ${rhythm(0.5)};
+`;
+
+const PostTime = styled.h4`
+  margin: 0 0 ${rhythm(1.5)};
+`;
+
+const Divider = styled.hr`
+  margin-bottom: ${rhythm(1)};
+`;
+
+const BottomNavLinks = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+`;
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -23,26 +35,14 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.seoTitle || post.frontmatter.title} | ${siteTitle}`} />
-        <h1 style={styles.title}>{post.frontmatter.title}</h1>
-        <h4 style={styles.time}>
+        <PostTitle>{post.frontmatter.title}</PostTitle>
+        <PostTime>
           <time>{post.frontmatter.date}</time>
-        </h4>
+        </PostTime>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <Divider />
 
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
+        <BottomNavLinks>
           {previous && (
             <li>
               <Link to={previous.fields.slug} rel="prev">
@@ -58,7 +58,7 @@ class BlogPostTemplate extends React.Component {
               </Link>
             </li>
           )}
-        </ul>
+        </BottomNavLinks>
       </div>
     )
   }
