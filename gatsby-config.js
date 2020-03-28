@@ -4,7 +4,13 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `leimon.io`,
+    siteTitleAlt: `leimon.io`,
+    siteUrl: `https://leimon.io`,
+    siteDescription: `👋 Hi my name in Konstantinos Leimonis.`,
+    siteLanguage: `en`,
+    siteImage: `/favicon-32x32.png`,
+    author: `@leimonio`,
   },
   plugins: [
     {
@@ -23,11 +29,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/leimonio`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Github`,
+            url: `https://github.com/leimonio`,
           },
         ],
       },
@@ -42,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
+        name: `leimon.io`,
+        short_name: `leimon.io`,
         description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
         background_color: `#fff`,
