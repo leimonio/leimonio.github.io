@@ -1,0 +1,43 @@
+---
+title: Browser history pushState vs replaceState
+date: 2020-02-11
+---
+
+## History API
+## When to use pushState vs replaceState
+-----
+
+### History API
+
+First things first - History API, is a browser interface for wonderful people to manipulate the browser's history programmatically.
+
+### Why do we need that?
+
+A common use case for utilising History API is the Single Page Applications, in which content of the webpage is dynamically changed. We need to be able to represent content changes in the URI by making them navigable.
+
+History API provides some methods for navigating:
+
+- to pages already existing in the browser history - `forward()`, `back()`, `go()`.
+- to new pages by updating the browser history: - `pushState`, `replaceState`.
+
+#### pushState
+
+will add a new page in the browser's history.
+
+#### replaceState
+
+will entirely replace and override the current page state or/and url.
+
+#### pushState VS replaceState
+
+There is not a silver bullet when you should use each of this function. It all depends on the experience you want the users of your application to have. Simply ask yourself "Do I need to navigate in the previous page when clicking the back button?". If the answer is positive, then you need to replace the last state in the history of the browser aka `replaceState` . Otherwise, you'd navigate to the last piece of content the user has interacted with on the same page. And as such, push a new state to the history of the browser aka `pushState`.
+
+### Compared to window.location
+
+Before History API, the only way to manipulate browser's location was by setting the `window.location` attribute to a new web address. Unfortunately this was quite limiting due to the resulted full page reload. The only exception in triggering this full page reload, is when the `window.hash` attribute was changed.
+
+History API can modify the URL without that full page reload and offer a more straight forward way to navigate, and alternate the browser history status.
+
+### Compatibility
+
+Not much to wonder about, there is really good support from the browsers. Even on IE10.
