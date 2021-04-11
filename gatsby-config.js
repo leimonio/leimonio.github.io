@@ -7,7 +7,7 @@ module.exports = {
     siteTitle: `leimon.io`,
     siteTitleAlt: `leimon.io`,
     siteUrl: `https://leimon.io`,
-    siteDescription: `👋 Hi my name in Konstantinos Leimonis.`,
+    siteDescription: `Personal website, blogging about Javascript, React.`,
     siteLanguage: `en`,
     siteImage: `/favicon-32x32.png`,
     author: `@leimonio`,
